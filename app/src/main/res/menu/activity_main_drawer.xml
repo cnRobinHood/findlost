@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_book"
+            android:title="书本" />
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/ic_money"
+            android:title="钱物" />
+        <item
+            android:id="@+id/nav_headgar"
+            android:icon="@drawable/ic_headgar"
+            android:title="首饰" />
+        <item
+            android:id="@+id/nav_bag"
+            android:icon="@drawable/ic_bag"
+            android:title="背包" />
+        <item
+            android:id="@+id/nav_card"
+            android:icon="@drawable/ic_card"
+            android:title="证件" />
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_phone"
+            android:title="电子产品" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search"
+                android:title="搜索" />
+
+        </menu>
+    </item>
+
+</menu>
